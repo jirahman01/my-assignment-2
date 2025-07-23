@@ -1,0 +1,122 @@
+* {
+  background: rgb(245, 248, 255);
+}
+
+.containar {
+  width: 1280px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav-items {
+  display: flex;
+  font-family: Inter;
+  list-style: none;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.banner {
+  display: flex;
+  padding: 25px;
+  margin-top: 30px;
+  align-items: flex-end;
+}
+
+.banner h2 {
+  font-size: 65px;
+  font-weight: bold;
+  font-family: "Noto Serif";
+  margin: 13px 0px;
+}
+.banner-font {
+  color: #e95a08;
+}
+.banner p {
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 13px 0px;
+}
+.categories-title {
+  text-align: center;
+}
+.categories-title h2 {
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 16px 0px;
+}
+.categories-title p {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: Inter;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 16px 0px;
+}
+.categories-card {
+  padding: 0px;
+  text-align: center;
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.categories-card-body {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(17, 17, 17);
+  font-family: Inter;
+}
+
+.btn {
+  background-color: #e95a08;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  width: 270px;
+  height: 50px;
+  border: none;
+}
+.frame-containar {
+  display: flex;
+  margin-top: 210px;
+}
+.frame-containar-right {
+  margin-left: 60px;
+  width: 540px;
+  height: 521px;
+}
+.frame-containar-right h2 {
+  font-weight: 700;
+  font-size: 50px;
+  font-family: Noto Serif;
+}
+.frame-containar-right ul li {
+  font-size: 22px;
+  margin-top: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+}
+.middle-title {
+  text-align: center;
+  margin: 100px 150px;
+}
+.middle-title h2 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Noto Serif;
+}
+.middle-title p {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+}
