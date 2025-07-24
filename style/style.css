@@ -129,6 +129,62 @@ nav {
   color: rgba(0, 0, 0, 0.5);
   font-family: Inter;
 }
+
+.middle-box {
+  display: flex;
+  margin-bottom: 120px;
+}
+.middle-box-font h2,
+a {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-family: Noto Serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.middle-box-card-left1 {
+  background-image: url(../assets/deal-ana.png);
+  background-size: cover;
+  width: 360px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+.middle-box-card-left2 {
+  background-image: url(../assets/deal-bloom.png);
+  background-size: cover;
+  width: 360px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.middle-box-card-right {
+  background-image: url(../assets/deal-zabo.png);
+  background-size: cover;
+  width: 800px;
+  height: 424px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 28px;
+  border-radius: 10px;
+}
+.middle-box-card-right h1 {
+  font-size: 40px;
+  font-weight: bold;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-family: Noto Serif;
+}
 .contact-us {
   background-image: url(../assets/news-letter-bg.png);
   background-size: cover;
