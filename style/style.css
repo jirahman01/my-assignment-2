@@ -82,7 +82,17 @@ nav {
   color: rgb(17, 17, 17);
   font-family: Inter;
 }
-
+.frame-badge img {
+  width: 250px;
+  height: auto;
+  background-color: transparent;
+}
+.frame-badge {
+  position: absolute;
+  right: 50%;
+  top: 2150px;
+  background-color: transparent;
+}
 .frame-containar {
   display: flex;
   margin-top: 210px;
