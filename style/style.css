@@ -1,12 +1,20 @@
 * {
   background: rgb(245, 248, 255);
 }
-
 .containar {
   width: 1280px;
   margin: auto;
 }
-
+.btn {
+  background-color: #e95a08;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  width: 270px;
+  height: 50px;
+  border: none;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -23,7 +31,7 @@ nav {
 .banner {
   display: flex;
   padding: 25px;
-  margin-top: 30px;
+  margin: 120px 150px;
   align-items: flex-end;
 }
 
@@ -45,6 +53,7 @@ nav {
 }
 .categories-title {
   text-align: center;
+  margin: 120px 150px 50px;
 }
 .categories-title h2 {
   font-family: Noto Serif;
@@ -74,16 +83,6 @@ nav {
   font-family: Inter;
 }
 
-.btn {
-  background-color: #e95a08;
-  color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 600;
-  width: 270px;
-  height: 50px;
-  border: none;
-}
 .frame-containar {
   display: flex;
   margin-top: 210px;
@@ -119,4 +118,78 @@ nav {
   font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
   font-family: Inter;
+}
+.contact-us {
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  height: 533px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.hero-contact {
+  background-color: transparent;
+}
+.hero-contact h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-family: Noto Serif;
+  background-color: transparent;
+  margin: 16px 0px;
+}
+.hero-contact input {
+  width: 644px;
+  height: 50px;
+  padding: 0 20px;
+  border: none;
+}
+.hero-contact button {
+  height: 50px;
+  width: 200px;
+  margin: 0px;
+}
+.hero-contact-int-btn {
+  display: flex;
+  justify-content: center;
+}
+.footer-containar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 50px 160px;
+}
+.footer-left p {
+  font-size: 22px;
+  font-weight: 400;
+  width: 359px;
+  height: 81px;
+  margin: 16px 0px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+}
+.footer-links ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(107, 114, 128);
+  font-family: Inter;
+  margin: 32px 10px;
+}
+.footer-column ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(107, 114, 128);
+  font-family: Inter;
+  margin: 32px 10px;
+}
+.footer-icon {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0px;
 }
